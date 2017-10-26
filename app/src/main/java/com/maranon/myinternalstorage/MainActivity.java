@@ -67,6 +67,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        textView.setText(buffer.toString());
     }
 }
