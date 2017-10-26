@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         btnSave = (Button) findViewById(R.id.btnSave);
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
         preferences = getPreferences(Context.MODE_PRIVATE);
+        textView = (TextView) findViewById (R.id.textView);
     }
     public void save(View view) {
         String message = etMessage.getText().toString();
